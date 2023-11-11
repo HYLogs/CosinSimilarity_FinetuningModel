@@ -1,0 +1,7 @@
+# 폴더 무시
+data_after/
+data_before/
+data_final/
+
+# 파일 무시
+preprocess.ipynb
