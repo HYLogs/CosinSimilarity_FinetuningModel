@@ -1,5 +1,5 @@
 # CosinSimilarity_FinetuningModel   
-![](results\output.png)
+![](results/output.png)
 
 ## 소개   
 MobileNetV2모델의 Feature Vector와 Cosine Similarity를 활용하여 두 옷 이미지의 유사도를 측정하는 모듈입니다.   
@@ -19,11 +19,11 @@ MobileNetV2모델의 Feature Vector와 Cosine Similarity를 활용하여 두 옷
 - [AI 허브 - K-Fashion 이미지](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=51)에서 제공한 옷 이미지 데이터셋 사용
 - 제공하는 옷 이미지 데이터셋을 "옷 색상 - 옷 카테고리"으로 labeling 전처리
 - 사전 학습된 MobileNetV2 전이 학습 (Accuracy: 77%)   
-![](results\trainLoss.png)   
+![](results/trainLoss.png)   
 
 - 전이 학습된 MobileNetV2 모델 추론 시 특징 백터만 추출
 - 이미지마다 추출한 특징 벡터를 Cosine Similarity로 계산해서 유사도 측정
-![](results\output.png)
+![](results/output.png)
 
 ## 보완할 점
 - Data Unbalancing 문제로 모델의 학습률이 낮게 나왔을 수도 있습니다. 따라서 Class별 데이터 개수를 맞춰서 보완합니다.
